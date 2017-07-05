@@ -35,7 +35,30 @@ div{
   height: 25em;
 }
 
-.container .headline{
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div{
+  display: block;
+}
+
+.headline{
   background-color: black
   color: white;
+  width: 20em;
+  padding: 2em, 3em;
+  position: relative;
+  top: 9em;
+}
+
+h1, h4{
+  font-weight: bold;
+}
+
+.headline h1{
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
 }
