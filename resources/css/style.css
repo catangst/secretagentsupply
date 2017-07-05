@@ -1,0 +1,41 @@
+
+html{
+  font-size: 18px;
+  background-color: white
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+/* Company head */
+
+.company{
+  background-color: black;
+  color: white;
+}
+
+.company img{
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+div{
+  display: block;
+}
+
+/* Hero banner */
+
+.banner{
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+
+.container .headline{
+  background-color: black
+  color: white;
+}
